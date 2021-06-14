@@ -4,7 +4,7 @@
 
 Be careful, use the browser to automatically fill in, you may have sent additional personal information!
 
-Demo Site: https://ryanlee.tw/security-risk-of-autofill/
+Demo Site: https://ryanlee.tw/security-risk-of-autofill-demo/
 
 
 > 僅是 POC 網站，**不會** 以任何形式儲存使用者輸入的 **任何資料**，
