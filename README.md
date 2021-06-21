@@ -12,6 +12,8 @@ When you use the browser to fill in automatically, have you confirmed what infor
 
 Demo Site: https://ryanlee.tw/security-risk-of-autofill-demo/
 
+Blog: https://ryanlee.tw/2021/06/20/security-risk-of-autofill/
+
 ## Disclaimer
 
 1. 本網站不會以任何形式蒐集、儲存使用者的任何資料，包括但不限於 cookie、localstorage、any other server、any online database。
