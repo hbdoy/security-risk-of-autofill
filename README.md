@@ -4,16 +4,21 @@
 
 Be careful, use the browser to automatically fill in, you may have sent additional personal information!
 
-## 說明
+## Information
+
 自動填寫表單時，請確認到底填入了哪些資料，避免預期外的訊息送出。
+
+When you use the browser to fill in automatically, have you confirmed what information is filled in?
 
 Demo Site: https://ryanlee.tw/security-risk-of-autofill-demo/
 
-## 重要
-> 僅是 POC 網站，**不會** 以任何形式儲存使用者輸入的 **任何資料**，
-包括但不限於 cookie、localstorage、any other server、any online database。
+## Disclaimer
 
-
-測試時可以:
-1. 右鍵 > 檢視原始碼，確認每一行程式碼的作用
-2. 或是頁面載入後關掉網路測試，結束後關掉網頁再打開網路(如果這能讓你更安心使用)
+1. 本網站不會以任何形式蒐集、儲存使用者的任何資料，包括但不限於 cookie、localstorage、any other server、any online database。
+   This website will not collect and store any user information in any form, including but not limited to cookies, localstorage, any other server, any online database.
+   <br>
+2. 表單的資料不會送出到任何地方，僅在前端存取(可以斷網使用)。
+   The information in the form will not be sent to any place, only accessed at the front end (it can be used when disconnected from the Internet).
+   <br>
+3. 使用者日後若有各種形式的個資外洩，與本站一概無關。
+   If the user has various forms of personal information leakage in the future, it has nothing to do with this site.
