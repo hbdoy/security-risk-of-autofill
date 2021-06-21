@@ -37,7 +37,8 @@
                         <a class="nav-link active" href="https://ryanlee.tw/">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="https://github.com/hbdoy/security-risk-of-autofill-demo">Github</a>
+                        <a class="nav-link active"
+                            href="https://github.com/hbdoy/security-risk-of-autofill-demo">Github</a>
                     </li>
                 </ul>
             </div>
@@ -54,6 +55,34 @@
                 </div>
                 <div class="modal-body">
                     <img class="img-fluid" src="./img/demo.gif" alt="demo.gif">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="disclaimerModal" tabindex="-1" aria-labelledby="disclaimerModal" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-dark" id="disclaimerModal">免責申明 Disclaimer</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-dark">
+                    1. 本網站不會以任何形式蒐集、儲存使用者的任何資料，包括但不限於 cookie、localstorage、any other server、any online database。
+                    <br>
+                    2. 表單的資料不會送出到任何地方，僅在前端存取(可以斷網使用)。
+                    <br>
+                    3. 使用者日後若有各種形式的個資外洩，與本站一概無關。
+                    <br>
+                    <br>
+                    1. This website will not collect and store any user information in any form, including but not
+                    limited to cookies, localstorage, any other server, any online database.
+                    <br>
+                    2. The information in the form will not be sent to any place, only accessed at the front end (it can
+                    be used when disconnected from the Internet).
+                    <br>
+                    3. If the user has various forms of personal information leakage in the future, it has nothing to do
+                    with this site.
                 </div>
             </div>
         </div>
@@ -93,7 +122,10 @@
                     <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#demoModal">
                         Demo
                     </button>
-
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                        data-bs-target="#disclaimerModal">
+                        免責申明
+                    </button>
                 </div>
                 <div class="col-md-6">
                     <label class="form-label" for="Email">Email</label>
